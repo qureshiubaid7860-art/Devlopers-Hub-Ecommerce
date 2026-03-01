@@ -64,8 +64,8 @@ const countryDropdown = document.querySelector(".country-dropdown");
 const flagImg = document.querySelector(".country-selector .flag");
 
 const flagMap = {
-    "us": "./images/property 1=US.png",
-    "de": "./images/property 1=AE.png",
+    "us": "./images/Property 1=US.png",
+    "de": "./images/Property 1=AE.png",
     "ae": "./images/ger.png"
 };
 
@@ -105,4 +105,5 @@ document.addEventListener('click', (e) => {
 
   function changeImage(img) {
             document.getElementById("bigImage").src = img.src;
+
         }
